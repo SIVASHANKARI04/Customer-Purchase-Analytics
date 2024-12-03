@@ -31,13 +31,13 @@ The dataset includes the following columns:
 19. **Frequency of Purchases**: Frequency of purchases made by the customer (e.g., Weekly, Monthly).
 
 
-Applications
+**Applications**
     Exploratory Data Analysis: Understand shopping patterns and trends.
     Customer Segmentation: Identify high-value customers.
     Sales Forecasting: Predict sales trends using historical data.
     Marketing Insights: Analyze the effectiveness of discounts and promo codes.
 
-Continuous Variables:
+**Continuous Variables:**
     These columns contain numerical data with measurable, continuous values:
 
 Age: Continuous, as it is a numerical measure that can take any value within a range.
@@ -46,7 +46,7 @@ Discount Applied: Continuous, as it represents a numerical value for discounts.
 Previous Purchases: Continuous, counting the number of past purchases.
 Frequency of Purchases: Could be considered continuous if treated as a frequency rate.
 
-Categorical Variables:
+**Categorical Variables:**
     These columns represent categories or labels:
 
 Gender: Categorical, representing distinct groups (e.g., Male, Female).
@@ -62,32 +62,32 @@ Shipping Type: Categorical, representing shipping options (e.g., Standard, Expre
 Promo Code Used: Categorical, as it is a Boolean (True/False).
 Preferred Payment Method: Categorical, representing the most used payment mode.  
 
-Sequential/Ordered Variables:
+**Sequential/Ordered Variables:**
     These columns have a meaningful order (ordinal variables):
 
 Review Rating: Ordered, as higher ratings (1-5) indicate better feedback.
 Size: Can be considered ordered (e.g., Small < Medium < Large) if sizes have a progression.
 Frequency of Purchases: If expressed as discrete intervals (e.g., Weekly < Monthly < Quarterly), it becomes ordered.
 
-Unordered Variables:
+**Unordered Variables:**
     These columns have no inherent sequence:
 
 Gender: Unordered, as there's no natural ranking.
 Color: Unordered, as color names have no ranking.
 Category: Unordered, unless you assign priority levels (e.g., Electronics > Groceries).
 
-Summary:
+**Summary:**
 
-Continuous Columns:
+**Continuous Columns:**
     Age, Purchase Amount (USD), Discount Applied, Previous Purchases, Frequency of Purchases (if numeric).
     
-Categorical Columns:
+**Categorical Columns:**
    Gender, Item Purchased, Category, Location, Size, Color, Season, Subscription Status, Payment Method, Shipping Type, Promo Code Used, Preferred Payment Method.
 
-Ordered Columns:
+**Ordered Columns:**
     Review Rating, Size (optional), Frequency of Purchases (if ordinal).  
 
-Unordered Columns:
+**Unordered Columns:**
     Color, Category, Location, Gender.
     
 This breakdown helps in determining how to preprocess the data for tasks like machine learning, where numerical and categorical data require different handling strategies.
