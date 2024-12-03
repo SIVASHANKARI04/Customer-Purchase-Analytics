@@ -8,6 +8,7 @@ This repository contains a dataset named `shopping_trends.csv`, which includes d
 ## File Details
 
 ### **shopping_trends.csv**
+
 The dataset includes the following columns:
 
 1. **Customer ID**: Unique identifier for each customer.
@@ -32,13 +33,15 @@ The dataset includes the following columns:
 
 
 **Applications**
-    Exploratory Data Analysis: Understand shopping patterns and trends.
-    Customer Segmentation: Identify high-value customers.
-    Sales Forecasting: Predict sales trends using historical data.
-    Marketing Insights: Analyze the effectiveness of discounts and promo codes.
+
+Exploratory Data Analysis: Understand shopping patterns and trends.
+Customer Segmentation: Identify high-value customers.
+Sales Forecasting: Predict sales trends using historical data.
+Marketing Insights: Analyze the effectiveness of discounts and promo codes.
 
 **Continuous Variables:**
-    These columns contain numerical data with measurable, continuous values:
+
+These columns contain numerical data with measurable, continuous values:
 
 Age: Continuous, as it is a numerical measure that can take any value within a range.
 Purchase Amount (USD): Continuous, representing monetary amounts.
@@ -47,7 +50,8 @@ Previous Purchases: Continuous, counting the number of past purchases.
 Frequency of Purchases: Could be considered continuous if treated as a frequency rate.
 
 **Categorical Variables:**
-    These columns represent categories or labels:
+
+These columns represent categories or labels:
 
 Gender: Categorical, representing distinct groups (e.g., Male, Female).
 Item Purchased: Categorical, as it contains unique items (non-numerical).
@@ -63,14 +67,16 @@ Promo Code Used: Categorical, as it is a Boolean (True/False).
 Preferred Payment Method: Categorical, representing the most used payment mode.  
 
 **Sequential/Ordered Variables:**
-    These columns have a meaningful order (ordinal variables):
+
+These columns have a meaningful order (ordinal variables):
 
 Review Rating: Ordered, as higher ratings (1-5) indicate better feedback.
 Size: Can be considered ordered (e.g., Small < Medium < Large) if sizes have a progression.
 Frequency of Purchases: If expressed as discrete intervals (e.g., Weekly < Monthly < Quarterly), it becomes ordered.
 
 **Unordered Variables:**
-    These columns have no inherent sequence:
+
+These columns have no inherent sequence:
 
 Gender: Unordered, as there's no natural ranking.
 Color: Unordered, as color names have no ranking.
@@ -79,16 +85,20 @@ Category: Unordered, unless you assign priority levels (e.g., Electronics > Groc
 **Summary:**
 
 **Continuous Columns:**
-    Age, Purchase Amount (USD), Discount Applied, Previous Purchases, Frequency of Purchases (if numeric).
+
+Age, Purchase Amount (USD), Discount Applied, Previous Purchases, Frequency of Purchases (if numeric).
     
 **Categorical Columns:**
-   Gender, Item Purchased, Category, Location, Size, Color, Season, Subscription Status, Payment Method, Shipping Type, Promo Code Used, Preferred Payment Method.
+
+Gender, Item Purchased, Category, Location, Size, Color, Season, Subscription Status, Payment Method, Shipping Type, Promo Code Used, Preferred Payment Method.
 
 **Ordered Columns:**
-    Review Rating, Size (optional), Frequency of Purchases (if ordinal).  
+
+Review Rating, Size (optional), Frequency of Purchases (if ordinal).  
 
 **Unordered Columns:**
-    Color, Category, Location, Gender.
+
+Color, Category, Location, Gender.
     
 This breakdown helps in determining how to preprocess the data for tasks like machine learning, where numerical and categorical data require different handling strategies.
 
