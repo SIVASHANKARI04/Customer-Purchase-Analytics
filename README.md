@@ -103,6 +103,10 @@ Color, Category, Location, Gender.
 This breakdown helps in determining how to preprocess the data for tasks like machine learning, where numerical and categorical data require different handling strategies.
 
 
+REFERENCE PATH:/content/shopping_trends.csv
+
+
+
 
 
 
